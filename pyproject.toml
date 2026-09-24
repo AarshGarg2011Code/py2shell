@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "py2shell"
+version = "0.1.0"
+description = "a bridge between python and bash"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Aarsh Garg", email = "aarshg.13@gmail.com" }
+]
+keywords = ["cli", "transpiler", "shell", "bash", "ast"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = []
+[project.urls]
+Homepage = "https://github.com/AarshGarg2011Code/py2shell"
+Repository = "https://github.com/AarshGarg2011Code/py2shell"
+[project.scripts]
+py2shell = "py2shell.cli:main"
