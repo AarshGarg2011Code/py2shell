@@ -66,6 +66,7 @@
 ##### 7. Take reference of the test scripts provided in this GitHub repo.
 ##### 8. Apart from using the Py2Shell Transpiler, you can also import Py2Shell modules in your Python scripts.
 #### For any queries, email me at *aarshg.13@gmail.com*
+#### Also, view `command_map.json` to see in-built py2shell functions which definetely wont error on transpilation, unless you use them wrong. All other bash commands you want to write in py2shell python scripts, are to be written on your own (as of v0.1.0).
 ## License
 
 This project is licensed under the MIT License.
