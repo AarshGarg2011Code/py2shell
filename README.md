@@ -71,3 +71,5 @@
 
 This project is licensed under the MIT License.
 
+#### Warning - Py2Shell v0.1.0 has only been tested on ArchLinux. For BEST performance and to make all commands work, use Py2Shell in ArchLinux/ArchLinuxWSL
+
